@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(33, 252, 179);
+    display: flexbox;
+    flex-direction: column;
+    
+}
+
+form{
+    background-color: rgb(13, 13, 13);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 50px;
+    color: white;
+    border: 30px solid transparent;
+    
+}
+input, select {
+  width: 100%;
+  padding: 10px 30px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: #131513;
+    border-color: #4CAF50;
+    border: 2px solid white;
+    box-shadow: 2px 4px 2px 4px #2e9d2e;
+}
+
+.redirect{
+    width: 100%;
+  padding: 10px 30px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid transparent;
+  
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+a{
+  display: inline-block;
+  margin: 40px 20px;
+  margin-top: 2px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
